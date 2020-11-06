@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+
+  
+  <title>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://example.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en_US">
+<meta property="article:author" content="John Doe">
+<meta name="twitter:card" content="summary">
+  
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+  
+  
+    <link rel="icon" href="/favicon.png">
+  
+  
+    <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+  
+  
+<link rel="stylesheet" href="/css/style.css">
+
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="banner"></div>
+  <div id="header-outer" class="outer">
+    <div id="header-title" class="inner">
+      <h1 id="logo-wrap">
+        <a href="/" id="logo">Hexo</a>
+      </h1>
+      
+    </div>
+    <div id="header-inner" class="inner">
+      <nav id="main-nav">
+        <a id="main-nav-toggle" class="nav-icon"></a>
+        
+          <a class="main-nav-link" href="/">Home</a>
+        
+          <a class="main-nav-link" href="/archives">Archives</a>
+        
+      </nav>
+      <nav id="sub-nav">
+        
+          <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
+        
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
+      </nav>
+      <div id="search-form-wrap">
+        <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="http://example.com"></form>
+      </div>
+    </div>
+  </div>
+</header>
+      <div class="outer">
+        <section id="main">
+  
+    <article id="post-HTML基础" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/11/06/HTML%E5%9F%BA%E7%A1%80/" class="article-date">
+  <time datetime="2020-11-06T05:04:00.655Z" itemprop="datePublished">2020-11-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="HTML基础"><a href="#HTML基础" class="headerlink" title="HTML基础"></a>HTML基础</h1><h4 id="——超文本标记语言-Hyper-Text-Markup-Language"><a href="#——超文本标记语言-Hyper-Text-Markup-Language" class="headerlink" title="——超文本标记语言 (Hyper Text Markup Language)"></a>——超文本标记语言 (<strong>H</strong>yper <strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage)</h4><h4 id="1、文本格式化标签"><a href="#1、文本格式化标签" class="headerlink" title="1、文本格式化标签"></a>1、文本格式化标签</h4><ul>
+<li>粗体： strong  b；   斜体：em  i  ;    上标： sup  下标：sub；   删除  del ；  下划线：ins;</li>
+</ul>
+<h4 id="2、“计算机输出”标签"><a href="#2、“计算机输出”标签" class="headerlink" title="2、“计算机输出”标签"></a>2、“计算机输出”标签</h4><ul>
+<li><p>pre  : 保留<strong>空格</strong>与<strong>换行</strong></p>
+</li>
+<li><p>code ：  有空格，但不保留多余的空格和换行</p>
+</li>
+<li><p>var ：    定义数学变量    <var>E</var> = <var>m</var> <var>c</var><sup>2</sup></p>
+</li>
+</ul>
+<h4 id="3、引用"><a href="#3、引用" class="headerlink" title="3、引用"></a>3、引用</h4><ul>
+<li><p>缩写：abbr   ;      <abbr title="etcetera">etc.</abbr> </p>
+</li>
+<li><p>首字母缩写：<del>acronym</del>（H5删除）   ;       <acronym title="World Wide Web">WWW</acronym></p>
+</li>
+<li><p>文字方向： bdo ;  ltr(自左往右)   rtl(自右往左)  </p>
+<p>​    <bdo dir="rtl">Here is some Hebrew text</bdo> </p>
+</li>
+<li><p>块引用：</p>
+<ul>
+<li>blockquote ：浏览器会插入换行和外边距</li>
+<li>q ：不换行；相当于  引号 “  ”</li>
+<li>p ： 无特殊呈现</li>
+</ul>
+</li>
+</ul>
+<h4 id="4、条件注释"><a href="#4、条件注释" class="headerlink" title="4、条件注释"></a>4、条件注释</h4><p>​    <!--[if IE 9]>  .... some HTML here ....  <![endif]--></p>
+<p>​    以上代码是一段注释，但是 IE9 的早期版本会读取它（并理解它）。写在head里面</p>
+<h4 id="5、链接的属性"><a href="#5、链接的属性" class="headerlink" title="5、链接的属性"></a>5、链接的属性<a></h4><ul>
+<li><p>href ：URL   “#id”(可定位)    “mailto:<a href="mailto:&#x79;&#97;&#110;&#x67;&#100;&#x61;&#x79;&#x65;&#x33;&#x31;&#x36;&#x40;&#x31;&#50;&#54;&#x2e;&#x63;&#111;&#x6d;">&#x79;&#97;&#110;&#x67;&#100;&#x61;&#x79;&#x65;&#x33;&#x31;&#x36;&#x40;&#x31;&#50;&#54;&#x2e;&#x63;&#111;&#x6d;</a>“  (用 %20 替换单词之间的空格)</p>
+</li>
+<li><p>target  ：target=”_blank”  _self 等 （打开方式）</p>
+</li>
+<li><p>download  ： 下载超链接目标</p>
+</li>
+<li><p>media  ： screen print  等 (and not , )  resolution 等。  eg : media=”print and (resolution:300dpi)”</p>
+</li>
+</ul>
+<h4 id="6、表格"><a href="#6、表格" class="headerlink" title="6、表格"></a>6、表格</h4> <table> <tr><td>1</td></tr></table>    空单元格不显示边框，加一个nbsp; 使之显示。  <td>&nbsp;</td>
+
+<ul>
+<li><p>th   表头： 粗体居中。              caption   标题： 写在table里面</p>
+</li>
+<li><p>colspan ：横跨两列；                rowspan：纵跨两行</p>
+</li>
+<li><p>cell padding：单元格边距；     cell spacing ：单元格间距。cell spacing=0</p>
+</li>
+</ul>
+<h4 id="7、列表"><a href="#7、列表" class="headerlink" title="7、列表"></a>7、列表</h4><p>​    <dl> <dt>计算器</dt><dd>用来计算的仪器 … …</dd></dl></p>
+<h4 id="8、布局"><a href="#8、布局" class="headerlink" title="8、布局"></a>8、布局</h4><p>​    H5语义标签：header  nav  section article aside footer details  summary  figure figcaption main mark time</p>
+<h4 id="9、框架"><a href="#9、框架" class="headerlink" title="9、框架"></a>9、框架</h4><ul>
+<li><p><del>frameset</del> （H5删除）：  <del>frame</del>  cols rows</p>
+</li>
+<li><p>iframe ： 在网页内显示网页  <iframe src="URL"></iframe></p>
+</li>
+</ul>
+<h4 id="10、头部元素"><a href="#10、头部元素" class="headerlink" title="10、头部元素"></a>10、头部元素</h4><ul>
+<li><p>title ： 在所有 HTML/XHTML 文档中都是必需的。</p>
+</li>
+<li><p>base ： 页面中所有链接的默认地址或默认目标( target )。</p>
+</li>
+<li><p>link ： <link rel="stylesheet" type="text/css" href="mystyle.css" /></p>
+</li>
+<li><p>style ：  <style type="text/css">   p {color:blue}  </style></p>
+</li>
+<li><p>meta ：元数据(metadata) 规定页面的描述、关键词、文档作者、最后修改时间以及其他</p>
+<p>​    name、content 属性： <meta name="keywords" content="HTML,CSS,XML"/></p>
+</li>
+<li><p>script ： 定义客户端脚本语言</p>
+</li>
+</ul>
+<h4 id="11、URL"><a href="#11、URL" class="headerlink" title="11、URL"></a>11、URL</h4><p>​    URL： Uniform Resource Locator  统一资源定位符</p>
+<p>​        scheme://host.domain:port/path/filename </p>
+<p>​        eg：<a target="_blank" rel="noopener" href="http://www.w3school.com.cn/html/index.asp%EF%BC%8C">http://www.w3school.com.cn/html/index.asp，</a></p>
+<h4 id="12、表单"><a href="#12、表单" class="headerlink" title="12、表单"></a>12、表单</h4><ul>
+<li><p>input： </p>
+<ul>
+<li><p>type  输入类型：text   password  submit  radio(单选)  checkbox(多选)  button</p>
+<p>​                 H5新：color；date；datetime；datetime-local；email；month；</p>
+<p>​                            number；range；search；tel；time；url；week</p>
+</li>
+<li><p> value ： 初始值</p>
+</li>
+<li><p> readonly ： 输入字段只读（不可修改） readonly 或者  readonly=”readonly”</p>
+</li>
+<li><p> disabled： 输入字段禁用 （不可用、不可点击、不会被提交）</p>
+</li>
+<li><p> size：输入字段尺寸（字符）    ———–框框大小</p>
+</li>
+<li><p> maxlength：输入字段允许的最大长度。———– 字数</p>
+</li>
+<li><p> H5新增：autocomplete；autofocus；form；formaction；formenctype；formmethod；formnovalidate；formtarget；height 和 width；list；min 和 max；multiple；pattern (regexp)；placeholder；required；step</p>
+</li>
+</ul>
+</li>
+<li><p>select：下拉表单  option</p>
+</li>
+<li><p>textarea： 文本域    选中时没有框框且不能拖拽：</p>
+</li>
+</ul>
+<p>​             <textarea style="resize:none;outline:none;"></textarea></p>
+<ul>
+<li><p>button：按钮</p>
+</li>
+<li><p>datalist（H5新）： <input> 用户在输入数据时可看到预定义选项的下拉列表。</p>
+</li>
+</ul>
+<p>​        <input> 元素的 list 属性必须引用 <datalist> 元素的 <em>id</em> 属性。</p>
+<ul>
+<li>keygen（H5新）：用于表单的密钥对生成器字段。当提交表单时，私钥存储在本地，公钥发送到服务器。</li>
+<li>output（H5新）：定义不同类型的输出，比如脚本的输出。  for   form    name</li>
+</ul>
+<h4 id="13、图形"><a href="#13、图形" class="headerlink" title="13、图形"></a>13、图形</h4><ul>
+<li><p>画布  canvas  （canvas+JS）</p>
+<p>JavaScript 代码：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">script</span> <span class="attr">type</span>=<span class="string">&quot;text/javascript&quot;</span>&gt;</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> c=<span class="built_in">document</span>.getElementById(<span class="string">&quot;myCanvas&quot;</span>);</span></span><br><span class="line"><span class="javascript"><span class="keyword">var</span> cxt=c.getContext(<span class="string">&quot;2d&quot;</span>);</span></span><br><span class="line">cxt.moveTo(10,10);</span><br><span class="line">cxt.lineTo(150,50);</span><br><span class="line">cxt.lineTo(10,50);</span><br><span class="line">cxt.stroke();</span><br><span class="line"><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<p>canvas元素：</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">canvas</span> <span class="attr">id</span>=<span class="string">&quot;myCanvas&quot;</span> <span class="attr">width</span>=<span class="string">&quot;200&quot;</span> <span class="attr">height</span>=<span class="string">&quot;100&quot;</span> <span class="attr">style</span>=<span class="string">&quot;border:1px solid #c3c3c3;&quot;</span>&gt;</span></span><br><span class="line">Your browser does not support the canvas element.</span><br><span class="line"><span class="tag">&lt;/<span class="name">canvas</span>&gt;</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><p>SVG</p>
+<p>可伸缩矢量图形 (Scalable Vector Graphics  ； 使用 XML 格式定义图形</p>
+<p>可将 SVG 元素直接嵌入 HTML 页面中</p>
+</li>
+</ul>
+<h4 id="14、多媒体"><a href="#14、多媒体" class="headerlink" title="14、多媒体"></a>14、多媒体</h4><ul>
+<li>video、audio ：<video> <embed>  、<audio> <embed></li>
+</ul>
+<h4 id="15、API"><a href="#15、API" class="headerlink" title="15、API"></a>15、API</h4><ul>
+<li>地理定位：    使用 getCurrentPosition() 方法来获得用户的位置。</li>
+<li>拖放  Drag  Drop</li>
+<li>本地存储  Local Storage：优于cookies</li>
+<li>应用程序缓存  Application Cache</li>
+<li>web Workers：运行在后台的JavaScript</li>
+<li>SSE（Server-Sent事件） ： 事件允许网页从服务器获得更新</li>
+</ul>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/11/06/HTML%E5%9F%BA%E7%A1%80/" data-id="ckh5snprp0000bwuxgblnfld3" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/11/06/hello-world/" class="article-date">
+  <time datetime="2020-11-06T04:48:18.902Z" itemprop="datePublished">2020-11-06</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/11/06/hello-world/">Hello World</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/11/06/hello-world/" data-id="ckh5s8hjl0000xsuxfjgl61ps" class="article-share-link">Share</a>
+      
+      
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-Java SE基础" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/03/27/Java%20SE%E5%9F%BA%E7%A1%80/" class="article-date">
+  <time datetime="2020-03-27T14:13:22.000Z" itemprop="datePublished">2020-03-27</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2020/03/27/Java%20SE%E5%9F%BA%E7%A1%80/">Java SE</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>记录 JAVA SE 学习过程中的一些基础知识点<br>以防遗忘基础</p>
+<h2 id="基础语法"><a href="#基础语法" class="headerlink" title="基础语法"></a>基础语法</h2><h5 id="1、数据类型"><a href="#1、数据类型" class="headerlink" title="1、数据类型"></a>1、数据类型</h5><p>**bit(位)**：  0/1<br>**Byte(字节)**：  8位，数据存储的最小单位</p>
+<table>
+<thead>
+<tr>
+<th align="center">数据类型</th>
+<th align="center">关键字</th>
+<th align="center">内存占用</th>
+<th align="center">取值范围</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">字节型</td>
+<td align="center">byte</td>
+<td align="center">1(字节)</td>
+<td align="center">-128 - 127</td>
+</tr>
+<tr>
+<td align="center">短整型</td>
+<td align="center">short</td>
+<td align="center">2</td>
+<td align="center">-32768 - 32767</td>
+</tr>
+<tr>
+<td align="center">整型(默认)</td>
+<td align="center">int</td>
+<td align="center">4</td>
+<td align="center">- 2^31^  -  2^31^ -1</td>
+</tr>
+<tr>
+<td align="center">长整型</td>
+<td align="center">long</td>
+<td align="center">8</td>
+<td align="center">- 2^63^  -  2^63^ -1</td>
+</tr>
+<tr>
+<td align="center">单精度浮点数</td>
+<td align="center">float</td>
+<td align="center">4</td>
+<td align="center">1.4013E-45 - 3.4028E+38</td>
+</tr>
+<tr>
+<td align="center">双精度浮点数（默认）</td>
+<td align="center">double</td>
+<td align="center">8</td>
+<td align="center">4.9E-324 - 1.7977E+308</td>
+</tr>
+<tr>
+<td align="center">字符型</td>
+<td align="center">char</td>
+<td align="center">2</td>
+<td align="center">0 - 65535</td>
+</tr>
+<tr>
+<td align="center">布尔型</td>
+<td align="center">boolean</td>
+<td align="center">1</td>
+<td align="center">true、false</td>
+</tr>
+</tbody></table>
+<p><strong>注</strong>  :<br>1、字符串是引用类型；<br>2、浮点型是近似值；<br>3、创建float和long类型时，字母后缀F、L勿忘<br>4、创建byte和short类型时，务必不能超过取值范围<br>5、浮点数强转为int，会舍弃小数位</p>
+<hr>
+<h5 id="2、进制换算"><a href="#2、进制换算" class="headerlink" title="2、进制换算"></a>2、进制换算</h5><p>十进制–&gt;二进制  除以2取余，倒序<br>二进制–&gt;十进制  2^n^ 相加</p>
+<hr>
+<h5 id="3、运算符"><a href="#3、运算符" class="headerlink" title="3、运算符"></a>3、运算符</h5><p>算数运算符： +    -    *    /    %    ++   –<br>赋值运算符： =    +=    -=    *=    /=   %=<br>比较运算符： ==    &lt;     &gt;      &lt;=    &gt;=    !=<br>逻辑运算符： &amp;&amp;  ||  ！<br>三元运算符  :  c = a&gt;b ? a:b;</p>
+<hr>
+<h5 id="4、流程控制语句"><a href="#4、流程控制语句" class="headerlink" title="4、流程控制语句"></a>4、流程控制语句</h5><p><strong>if-(else)      switch-(default)      for      (do)-while **<br>死循环：while(true){ 循环体 }<br>**注</strong> ： switch小括号里 <strong>只能是</strong> char byte short int 或 String  enum<br>or    <strong>Character  Byte   Short  Integer</strong></p>
+<hr>
+<h5 id="5、数组"><a href="#5、数组" class="headerlink" title="5、数组"></a>5、数组</h5><p>eg :  int[] arr = {1,3,5};<br><strong>初始化默认值</strong>：<br><strong>整型：0       浮点型：0.0      字符型：’\u0000’       布尔型： false      引用类型：null</strong><br>长度：数组名称.length;<br>排序：Arrays.sort(数组名称)；升序 </p>
+<hr>
+<h2 id="面向对象（封装-amp-继承-amp-多态）"><a href="#面向对象（封装-amp-继承-amp-多态）" class="headerlink" title="面向对象（封装&amp;继承&amp;多态）"></a>面向对象（封装&amp;继承&amp;多态）</h2><p>编程思想:<br>面向过程-&gt;面向对象-&gt;面向接口-&gt;面向组件-&gt;面向切面-&gt;面向服务</p>
+<hr>
+<h5 id="1、-对OOP的理解"><a href="#1、-对OOP的理解" class="headerlink" title="1、 对OOP的理解"></a>1、 对OOP的理解</h5><ul>
+<li><p>1、 首先面向对象是一种编程思想</p>
+</li>
+<li><p>2、 万物皆对象。OOP可以理解为使用代码来模拟现实生活。</p>
+</li>
+<li><p>3、 三大特性：封装、继承、多态<br><strong>封装</strong>：就是隐藏类的内部信息，不允许外部程序直接访问，而是通过getter 和 setter 方法完成，提高数据安全性。<br><strong>继承</strong>是指：父类的基本特征和行为，子类也会有，同时子类也能修改这些特征和行为。 </p>
+<p><strong>多态</strong>：同一行为具有多个不同的表现形式或形态的能力。</p>
+</li>
+</ul>
+<hr>
+<h5 id="2、类"><a href="#2、类" class="headerlink" title="2、类"></a>2、类</h5><p>标准类构成：<br>成员变量(private)     构造方法(无参构造  全参构造)     成员方法(getter &amp; setter)</p>
+<p><strong>构造方法</strong><br>public 类名称 (参数类型 参数名称){方法体}<br><strong>构造方法无返回值</strong> ，可<strong>重载overload</strong>（方法名相同，参数列表不同）</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Man</span></span>&#123;</span><br><span class="line">   <span class="keyword">private</span> String name;</span><br><span class="line">   <span class="keyword">private</span> <span class="keyword">int</span> age;</span><br><span class="line">   <span class="comment">//省写getter setter</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Man</span><span class="params">()</span></span>&#123;&#125; <span class="comment">//无参构造</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="title">Man</span><span class="params">(String name,<span class="keyword">int</span> age)</span></span>&#123; <span class="comment">//全参构造</span></span><br><span class="line">   <span class="keyword">this</span> name = name;</span><br><span class="line">   <span class="keyword">this</span> age = age;</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>成员方法(getter &amp; setter)</strong><br>对于基本类型的Boolean值，getter方法一定要写成<strong>isXxx</strong>的形式</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">private</span> <span class="keyword">boolean</span> male;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">setMale</span><span class="params">(<span class="keyword">boolean</span> m)</span></span>&#123;</span><br><span class="line">   male = m;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">boolean</span> is <span class="title">Male</span><span class="params">()</span></span>&#123;</span><br><span class="line">   <span class="keyword">return</span> male;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>类的使用</strong></p>
+<ul>
+<li><p><strong>创建类对象</strong><br>单个对象：类名  对象名=new 类名(); </p>
+<pre><code>    Person one =  new Person();</code></pre>
+<p>对象数组：类名 [] 数组名=new 类名[长度];</p>
+<pre><code>    Person[] arr = new Person[3];</code></pre>
+</li>
+<li><p><strong>参数传递和返回</strong></p>
+</li>
+</ul>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//类作为参数传递</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">void</span>  <span class="title">getAvg</span><span class="params">(Student stu)</span></span>&#123;<span class="comment">//学生类作为参数 </span></span><br><span class="line">    String name = stu.getName();</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//类作为返回</span></span><br><span class="line"><span class="function">Public Student <span class="title">createStudent</span><span class="params">()</span></span>&#123;<span class="comment">//学生类作为返回值</span></span><br><span class="line">   <span class="function">Return new <span class="title">Student</span><span class="params">()</span></span>;</span><br><span class="line">&#125;</span><br><span class="line">Public String[] createStudent(String [] names)&#123;<span class="comment">//数组作为参数和返回值</span></span><br><span class="line">   <span class="comment">//省略</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>静态代码块</strong><br>static{  } 当且仅当类加载时执行一次<br>对象初始化顺序：父类静态代码块 &gt; &gt; 子类静态代码块  &gt; &gt; 父类非静态代码块 &gt; &gt; 父类构造方法  &gt; &gt; 子类非静态代码块 &gt; &gt; 子类构造方法</p>
+<hr>
+<h5 id="3、继承-（extends）"><a href="#3、继承-（extends）" class="headerlink" title="3、继承 （extends）"></a>3、继承 （extends）</h5><h6 id="3-1成员变量-amp-成员方法"><a href="#3-1成员变量-amp-成员方法" class="headerlink" title="3.1成员变量&amp;成员方法"></a>3.1成员变量&amp;成员方法</h6><p><strong>成员变量：</strong><br>1、成员变量不重名：无影响<br>2、成员变量<strong>重名</strong>：<br>创建子类对象时，访问变量：<br>i.直接通过子类对象访问成员变量： <strong>等号左边是谁，优先用谁，没有向上找</strong><br>i.间接通过成员方法访问成员变量：  <strong>方法属于谁，优先用谁，没有向上找</strong></p>
+<p>局部变量：  直接写成员变量名<br>本类的成员变量： this.成员变量名<br>父类的成员变量： super.成员变量名<br>父类变量若为私有，使用需要用 getter、setter</p>
+<p><strong>成员方法：</strong><br>1、成员方法不重名：无影响<br>2、成员方法重名（<strong>重写override</strong>）：使用<strong>子类重写后</strong>的方法<br>子类若想调用父类未重写的方法，需先向上转型（参考多态处）</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Phone</span> </span>&#123;  <span class="comment">//父类</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showNum</span><span class="params">()</span></span>&#123;  </span><br><span class="line">      System.out.println(<span class="string">&quot;来电显示号码&quot;</span>);  </span><br><span class="line">   &#125;</span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">call</span><span class="params">()</span></span>&#123; </span><br><span class="line">      System.out.println(<span class="string">&quot;打电话&quot;</span>); </span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">NewPhone</span> <span class="keyword">extends</span> <span class="title">Phone</span> </span>&#123; <span class="comment">//子类</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">showNum</span><span class="params">()</span></span>&#123; </span><br><span class="line">      <span class="keyword">super</span>.showNum();  <span class="comment">//调用父类已经存在的功能使用super</span></span><br><span class="line">      System.out.println(<span class="string">&quot;显示头像&quot;</span>); <span class="comment">//增加自己特有功能 </span></span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">Use</span> </span>&#123; </span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String[] args)</span> </span>&#123; </span><br><span class="line">      NewPhone np = <span class="keyword">new</span> NewPhone();<span class="comment">// 创建子类对象  </span></span><br><span class="line">      np.call(); <span class="comment">// 调用父类继承而来的方法 </span></span><br><span class="line">      np.showNum(); <span class="comment">// 调用子类重写的方法</span></span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><strong>注</strong>：<br>子类方法覆盖父类方法，要保证【权限】&gt;=父类权限修饰符，【返回值】&lt;=父类返回值范围<br>public &gt; protected &gt; (default) &gt; private</p>
+<h6 id="3-2构造方法"><a href="#3-2构造方法" class="headerlink" title="3.2构造方法"></a>3.2构造方法</h6><p>i. 子类是无法继承父类构造方法（构造方法的名字是与类名一致）<br>i. 子类的构造方法中默认有一个 super() ，表示调用父类的构造方法，父类成员变量初始化后，才可以给子类使用。<br>i.只有子类构造方法才能调用父类构造方法。  public Zi(){ super(); } 详见下</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Fu</span> </span>&#123; </span><br><span class="line">   <span class="keyword">private</span> <span class="keyword">int</span> n; </span><br><span class="line">   Fu()&#123; System.out.println(<span class="string">&quot;Fu()&quot;</span>); &#125; <span class="comment">//父类构造方法</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Zi</span> <span class="keyword">extends</span> <span class="title">Fu</span> </span>&#123; </span><br><span class="line">   Zi()&#123;  </span><br><span class="line">      <span class="keyword">super</span>(); <span class="comment">// super()不写也默认有，调用父类构造方法</span></span><br><span class="line">      System.out.println(<span class="string">&quot;Zi()&quot;</span>); </span><br><span class="line">   &#125; </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">ExtendsDemo07</span></span>&#123; </span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span> <span class="params">(String args[])</span></span>&#123; </span><br><span class="line">      Zi zi = <span class="keyword">new</span> Zi(); </span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br><span class="line">输出结果：</span><br><span class="line">Fu（） </span><br><span class="line">Zi（）</span><br></pre></td></tr></table></figure>
+<p>注：<br>1、每次创建子类对象时，先初始化父类空间，再创建其子类对象本身。<br>2、子类的每个构造方法中均有默认的super()，调用父类的空参构造。手动调用父类构造会覆盖默认的super()。 super() 和 this() 都必须是在构造方法的第一行，所以不能同时出现</p>
+<ul>
+<li><p><strong>super关键字的3种用法</strong><br>1、在子类的成员方法中，访问父类的成员变量<br>2、在子类的成员方法中，访问父类的成员方法<br>3、在子类的构造方法中，访问父类的构造方法</p>
+</li>
+<li><p><strong>this关键字的3种用法</strong><br>1、在本类的成员方法中，访问本类的成员变量<br>2、在本类的成员方法中，访问本类的另一个成员方法<br>3、在本类的构造方法中，访问本类的另一个构造方法(唯一且第一个语句)</p>
+</li>
+</ul>
+<h6 id="3-3抽象方法-abstract"><a href="#3-3抽象方法-abstract" class="headerlink" title="3.3抽象方法(abstract)"></a>3.3抽象方法(abstract)</h6><p>抽象方法 ： 没有方法体的方法。  修饰符 abstract 返回值类型 方法名 (参数列表)；<br>抽象类：包含抽象方法的类。         abstract class 类名字 {  }</p>
+<h6 id="3-4接口-implements"><a href="#3-4接口-implements" class="headerlink" title="3.4接口(implements)"></a>3.4接口(implements)</h6><p>接口可包含：</p>
+<p><strong>1、成员变量</strong>其实是<strong>常量</strong>，格式：<br>[public] [static] [final] 数据类型 常量名称 = 数据值;  int NUM = 1；<br>注意：<br>    常量必须进行赋值，而且一旦赋值不能改变。<br>    常量名称完全<strong>大写</strong>，用<strong>下划线</strong>进行分隔。</p>
+<p><strong>2、</strong>方法1——<strong>抽象方法</strong>，格式：<br>[public] [abstract] 返回值类型 方法名称(参数列表);<br>注意：实现类必须覆盖重写接口所有的抽象方法，除非实现类是抽象类。</p>
+<p><strong>3、</strong>方法2——<strong>默认方法</strong>，格式：<br>[public] default 返回值类型 方法名称(参数列表) { 方法体 }<br>注意：默认方法也可以被覆盖重写<br>应用：接口升级，修改默认方法，能被实现类继承</p>
+<p><strong>4.、</strong>方法3——<strong>静态方法</strong>，格式：<br>[public] static 返回值类型 方法名称(参数列表) { 方法体 }<br>注意：应该通过接口名称进行调用，不能通过实现类对象调用接口静态方法</p>
+<p><strong>5、</strong>从Java 9开始，方法4——<strong>私有方法</strong>，格式：<br>普通私有方法：private 返回值类型 方法名称(参数列表) { 方法体 }<br>   ——供多个默认方法使用<br>静态私有方法：private static 返回值类型 方法名称(参数列表) { 方法体 }<br>   ——供多个静态方法使用<br>private的方法只有接口自己才能调用，不能被实现类或别人使用</p>
+<ul>
+<li>接口中，<strong>没有构造方法</strong>，不能创建对象。</li>
+<li>接口中，<strong>没有静态代码块</strong></li>
+</ul>
+<p><strong>注</strong>：<br>1、一个类，继承一个父类、若干个接口，若父类中的成员方法与接口中的默认方法重名，子类就近选择执行<strong>父类</strong>的成员方法。<br>2、一个接口如果多个父接口中的默认方法有重名的，那么子接口需要重写一次该方法<br>   子接口重写默认方法时，default关键字可以保留。<br>   子类重写默认方法时，default关键字不可以保留。</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://example.com/2020/03/27/Java%20SE%E5%9F%BA%E7%A1%80/" data-id="ckh5sn0ow0000l8ux6grscuil" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/" rel="tag">Java</a></li></ul>
+
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+
+
+</section>
+        
+          <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Java/" rel="tag">Java</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/Java/" style="font-size: 10px;">Java</a>
+    </div>
+  </div>
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/11/">November 2020</a></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/03/">March 2020</a></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recent Posts</h3>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/2020/11/06/HTML%E5%9F%BA%E7%A1%80/">(no title)</a>
+          </li>
+        
+          <li>
+            <a href="/2020/11/06/hello-world/">Hello World</a>
+          </li>
+        
+          <li>
+            <a href="/2020/03/27/Java%20SE%E5%9F%BA%E7%A1%80/">Java SE</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+  
+</aside>
+        
+      </div>
+      <footer id="footer">
+  
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; 2020 John Doe<br>
+      Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+    </div>
+  </div>
+</footer>
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/" class="mobile-nav-link">Home</a>
+  
+    <a href="/archives" class="mobile-nav-link">Archives</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+
+  
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+
+
+<script src="/js/script.js"></script>
+
+
+
+
+  </div>
+</body>
+</html>
